@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Page</title>
+</head>
+<body>
+    <header>
+        <h1>Hello! I'm Mariam Alli</h1>
+        <p>Welcome to my journey as an aspiring frontend engineer.</p>
+    </header>
+
+    <section>
+        <h2>My Vision as a Frontend Engineer</h2>
+        <p>I aim to create web experiences that are visually stunning, highly functional, and accessible to all.</p>
+
+        <!-- Responsive Picture Element -->
+        <div class="media-container">
+            <picture> 
+                <source srcset="images/small.jpg" media="(max-width: 480px)">
+                <source srcset="images/medium.jpg" media="(max-width: 768px)">
+                <source srcset="images/large.jpg" media="(max-width: 1024px)">
+               <img src="./assets/images/light-480w.jpg" alt="Showcasing my work on different devices" width="450px" height="480px">
+            </picture>
+        </div>
+    </section>
+
+    <section>
+        <h2>My Skills and Inspirations</h2>
+        <p>I'm passionate about building user-centric designs using the following technologies:</p>
+
+        <!-- Video Media -->
+        <div class="media-container">
+            <video controls>
+                <source src="./assets/video/meet mariam.mp4" type="video/mp4">
+                <source src="./assets/video/meet mariam.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+            <p>Watch this video to learn more about my journey and aspirations.</p>
+        </div>
+
+        <!-- Audio Media -->
+        <div class="media-container">
+            <audio controls>
+                <source src="audio/inspiration.mp3" type="audio/mpeg" width="500px">
+                <source src="audio/inspiration.ogg" type="audio/ogg" width="500px">
+                Your browser does not support the audio tag.
+            </audio>
+            <p>Listen to this clip to hear what inspires me to innovate daily.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [Your Name] - Aspiring Frontend Engineer</p>
+    </footer>
+
+
+</body>
+</html>
